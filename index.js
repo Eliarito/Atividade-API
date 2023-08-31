@@ -2,12 +2,12 @@
 import dotenv from "dotenv";
 import express from "express";
 import { selectUsuarios, selectUsuario, insertUsuario } from "./bd.js";
-app.use(express.json());
 
 dotenv.config();
 
 const app = express(); 
 const port = 3000; 
+app.use(express.json());
 
 app.get("/", (req, res) => {
   console.log("Rota / solicitada");
