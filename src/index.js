@@ -2,7 +2,7 @@
 import dotenv from "dotenv";
 import express from "express";
 dotenv.config();
-import routerUsuario from "./routes/usuario";
+import routerUsuario from "./routes/usuario.js";
 
 const app = express(); 
 const port = 3000; 
