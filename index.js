@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 });
 
 
+
 app.post("/usuario", async (req, res) => {
   console.log("Rota POST /usuario solicitada");
   try {
